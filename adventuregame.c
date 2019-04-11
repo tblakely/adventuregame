@@ -10,7 +10,7 @@ void introBeg();
 
 int main()
 {
-  char note, chest, all;
+  char note, chest, all, sit;
   
   
   introBeg();
@@ -38,6 +38,7 @@ int main()
     printf("\nWould you like to take all?");
     printf("\nInput [y]/[n]\n");
     scanf("%c", &all);
+    
     if (all == 'Y'||all == 'y')
     {
       printf("\nYou take the car key, laptop, and 500 dollars");
@@ -53,8 +54,9 @@ int main()
     printf("\nYou do not open the chest.");
   
   printf("Would you like to sit on the sofa?");
-  printf("\nInput [y]/[n]");
-  scanf("
+  printf("\nInput [y]/[n]\n");
+  scanf("%c", &sit);
+  
  
         
 }
