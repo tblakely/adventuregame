@@ -1,4 +1,3 @@
-/*this is Laith, do you fucking copy???*/
 #include <stdio.h>
 
 void introBeg();
