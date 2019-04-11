@@ -4,15 +4,49 @@ void introBeg();
 
 int main()
 {
-  char note;
+  char note, chest, all;
+  
+  
   introBeg();
+  
   prinf("\nWould you like to read the note?");
   printf("\nInput [y]/[n]");
   scanf("%c", &note);
-  if (note == 'Y', 'y')
+  
+  if (note == 'Y'||'y')
   {
     printf("\nYou pick up the note");
-    printf
+    printf("\nCheck the sofa.");
+  }
+  else
+    printf("\nYou do not read the note.");
+  
+  printf("\nWould you like to open the chest.");
+  printf("\nInput [y]/[n]");
+  scanf("%c", chest);
+  
+  if (chest == 'Y'||'y')
+  {
+    printf("\nYou open the chest.");
+    printf("\nInside the chest you find a car key, a laptop, and 500 dollars cash.");
+    printf("\nWould you like to take all?");
+    printf("\nInput [y]/[n]");
+    scanf("%c", &all);
+    if (all == 'Y'||'y')
+    {
+      printf("\nYou take the car key, laptop, and 500 dollars");
+      printf("\nYou close the chest.");
+    }
+    else
+    {
+      printf("\nYou leave everything in the chest.");
+      printf("\nYou close the chest");
+    }
+  }
+  else
+    printf("\nYou do not open the chest.");
+  
+ 
         
 }
 
