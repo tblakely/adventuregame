@@ -17,7 +17,7 @@ int main()
   
   printf("\nWould you like to read the note?");
   printf("\nInput [y]/[n]\n");
-  scanf("%c", &note);
+  scanf(" %c", &note);
   
   if (note == 'Y'||note == 'y')
   {
@@ -29,7 +29,7 @@ int main()
   
   printf("\nWould you like to open the chest.");
   printf("\nInput [y]/[n]\n");
-  scanf("%c", &chest);
+  scanf(" %c", &chest);
   
   if (chest == 'Y'||chest == 'y')
   {
@@ -37,7 +37,7 @@ int main()
     printf("\nInside the chest you find a car key, a laptop, and 500 dollars cash.");
     printf("\nWould you like to take all?");
     printf("\nInput [y]/[n]\n");
-    scanf("%c", &all);
+    scanf(" %c", &all);
     
     if (all == 'Y'||all == 'y')
     {
@@ -55,7 +55,7 @@ int main()
   
   printf("Would you like to sit on the sofa?");
   printf("\nInput [y]/[n]\n");
-  scanf("%c", &sit);
+  scanf(" %c", &sit);
   
  
         
