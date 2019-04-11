@@ -22,7 +22,7 @@ int main()
   if (note == 'Y'||'y')
   {
     printf("\nYou pick up the note");
-    printf("\nCheck the sofa.");
+    printf("\nThe note reads: 'Check the sofa.'");
   }
   else
     printf("\nYou do not read the note.");
@@ -52,6 +52,9 @@ int main()
   else
     printf("\nYou do not open the chest.");
   
+  printf("Would you like to sit on the sofa?");
+  printf("\nInput [y]/[n]");
+  scanf("
  
         
 }
