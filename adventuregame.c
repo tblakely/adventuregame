@@ -5,7 +5,7 @@ void introBeg();
 int main()
 {
   introBeg();
-  printf("Please type what you would like to do.");
+  printf("\n\nPlease type what you would like to do.");
 }
 
 void introBeg()
