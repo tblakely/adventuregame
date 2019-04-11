@@ -1,3 +1,9 @@
+/*
+ITS240
+Final Project
+Adventure Game
+*/
+
 #include <stdio.h>
 
 void introBeg();
