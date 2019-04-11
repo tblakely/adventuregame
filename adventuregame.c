@@ -9,7 +9,7 @@ int main()
   
   introBeg();
   
-  prinf("\nWould you like to read the note?");
+  printf("\nWould you like to read the note?");
   printf("\nInput [y]/[n]");
   scanf("%c", &note);
   
@@ -23,7 +23,7 @@ int main()
   
   printf("\nWould you like to open the chest.");
   printf("\nInput [y]/[n]");
-  scanf("%c", chest);
+  scanf("%c", &chest);
   
   if (chest == 'Y'||'y')
   {
