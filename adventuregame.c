@@ -19,7 +19,7 @@ int main()
   printf("\nInput [y]/[n]\n");
   scanf("%c", &note);
   
-  if (note == 'Y'||'y')
+  if (note == 'Y'||note == 'y')
   {
     printf("\nYou pick up the note");
     printf("\nThe note reads: 'Check the sofa.'");
@@ -31,14 +31,14 @@ int main()
   printf("\nInput [y]/[n]\n");
   scanf("%c", &chest);
   
-  if (chest == 'Y'||'y')
+  if (chest == 'Y'||chest == 'y')
   {
     printf("\nYou open the chest.");
     printf("\nInside the chest you find a car key, a laptop, and 500 dollars cash.");
     printf("\nWould you like to take all?");
     printf("\nInput [y]/[n]\n");
     scanf("%c", &all);
-    if (all == 'Y'||'y')
+    if (all == 'Y'||all == 'y')
     {
       printf("\nYou take the car key, laptop, and 500 dollars");
       printf("\nYou close the chest.");
