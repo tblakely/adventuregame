@@ -4,11 +4,15 @@ void introBeg();
 
 int main()
 {
-  int inspect;
+  char note;
   introBeg();
-  printf("\n\nWhat would you like to inspect first?");
-  prinf("\nInput 1 for coffee table, 2 for sofa, 3 for chest.);
-  scanf("%d", &inspect);
+  prinf("\nWould you like to read the note?");
+  printf("\nInput [y]/[n]");
+  scanf("%c", &note);
+  if (note == 'Y', 'y')
+  {
+    printf("\nYou pick up the note");
+    printf
         
 }
 
