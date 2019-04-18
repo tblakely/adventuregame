@@ -26,11 +26,13 @@ int main()
   if (note == 'Y'||note == 'y')
   {
     printf("\nYou pick up the note");
+    Sleep(3000);
     printf("\nThe note reads: 'Check the sofa.'");
   }
   else
     printf("\nYou do not read the note.");
-  
+ 
+  Sleep(3000);
   printf("\nWould you like to open the chest.");
   printf("\nInput [y]/[n]\n");
   scanf(" %c", &chest);
@@ -38,7 +40,9 @@ int main()
   if (chest == 'Y'||chest == 'y')
   {
     printf("\nYou open the chest.");
+    Sleep(3000);
     printf("\nInside the chest you find a car key, a laptop, and 500 dollars cash.");
+    Sleep(3000);
     printf("\nWould you like to take all?");
     printf("\nInput [y]/[n]\n");
     scanf(" %c", &all);
@@ -46,12 +50,14 @@ int main()
     if (all == 'Y'||all == 'y')
     {
       printf("\nYou take the car key, laptop, and 500 dollars");
+      Sleep(3000);
       printf("\nYou close the chest.");
       items = 1;
     }
     else
     {
       printf("\nYou leave everything in the chest.");
+      Sleep(3000);
       printf("\nYou close the chest");
       items = 0;
     }
@@ -62,6 +68,7 @@ int main()
     items = 0;
   }
   
+  Sleep(3000);
   printf("\nWould you like to sit on the sofa?");
   printf("\nInput [y]/[n]\n");
   scanf(" %c", &sit);
@@ -69,8 +76,11 @@ int main()
   if (sit == 'Y'||sit == 'y')
   {
   printf("\nYou sit on the sofa.");
+  Sleep(3000);
   printf("\nIt is not very comfortable.");
+  Sleep(3000);
   printf("\nIt feels like something is under a cushion.");
+  Sleep(3000);
     
   printf("\nWould you like to check under the cushion?");
   printf("\nInput [y]/[n]\n");
@@ -80,6 +90,7 @@ int main()
     {
       printf("\nYou check underneath the cushion and find a door handle.");
       
+      Sleep(3000);
       printf("\nWould you like to pick up the handle?");
       printf("\nInput [y]/[n]\n");
       scanf(" %c", &handle);
@@ -92,12 +103,14 @@ int main()
       else
       {
         printf("\nYou do not pick up the door handle.");
+        Sleep(3000);
         badEnd();
       }
     }
     else
     {
       printf("\nYou do not check underneath the cushion.");
+      Sleep(3000);
             badEnd();
     }
   
@@ -105,6 +118,7 @@ int main()
   else
   {
     printf("\nYou do not sit on the sofa.");
+    Sleep(3000);
     badEnd();
   }
     
@@ -122,7 +136,9 @@ void introBeg()
 void badEnd()
 {
    printf("\nYou are trapped in the room.");
+  Sleep(3000);
   printf("\nFor all of eternity.");
+  Sleep(15000);
   printf("\nLil bitch.");
 }
 
