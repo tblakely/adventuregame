@@ -145,16 +145,21 @@ void badEnd()
 void goodEnd(int items)
 {
   printf("\nYou stick the handle in the door and open it.");
+  Sleep(3000);
   printf("\nOutside you see a car and an open field.");
+  Sleep(3000);
   if (items == 1)
   {
     printf("\nYou open the car with the key you found and drive off into the sunset.");
+    Sleep(3000);
     printf("\nCONGRATULATIONS YOU FOUND THE BEST ENDING");
   }
   else
   {
     printf("\nYou are free.");
+    Sleep(3000);
     printf("\nYou start walking, hopefully finding civilization soon.");
+    Sleep(1000);
     printf("\nCONGRATULATIONS YOU FOUND THE GOOD ENDING");
   }
 }
