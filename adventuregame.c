@@ -99,7 +99,7 @@ int main()
       printf("\nYou do not check underneath the cushion.");
             badEnd();
     }
-  }
+  
   }
   else
   {
