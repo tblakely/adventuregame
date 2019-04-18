@@ -5,6 +5,7 @@ Adventure Game
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void introBeg();
 void badEnd();
