@@ -127,7 +127,7 @@ void goodEnd(int items)
 {
   printf("\nYou stick the handle in the door and open it.");
   printf("\nOutside you see a car and an open field.");
-  if (items = 1)
+  if (items == 1)
   {
     printf("\nYou open the car with the key you found and drive off into the sunset.");
     printf("\nCONGRATULATIONS YOU FOUND THE BEST ENDING");
