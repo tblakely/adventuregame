@@ -113,9 +113,9 @@ int main()
 void introBeg()
 {
   printf("\nYou wake to an unfamiliar room with a large metal door in front of you with no handle.");
-  Sleep(5000);
+  Sleep(3000);
   printf("\nThe room is dark, but you can make out a few pieces of furniture and an empty fireplace.");
-  Sleep(5000);
+  Sleep(3000);
   printf("\nAround the room you see a large wooden chest a leather sofa and a coffee table with a note on it.");
 }
 
